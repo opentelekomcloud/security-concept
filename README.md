@@ -11,12 +11,12 @@ organization's repositories cover mainly client-facing projects like
 libraries, SDKs, tools, drivers, providers, and connectors.
 
 All development and maintenance of projects here follow the following
-priniples unless otherwise explicitly noted:
+principles unless otherwise explicitly noted:
 
 * All software projects are **developed transparently in the open**.
 
-* All software designs implement **security best practies** in terms of
-  confidiality, integrity, and availability of data and services. They
+* All software designs implement **security best practices** in terms of
+  confidentiality, integrity, and availability of data and services. They
   don't rely on secrecy in their designs, though. We refuse security
   though obscurity.
 
@@ -24,19 +24,19 @@ priniples unless otherwise explicitly noted:
   to them in due time.
 
 * We adopt the [Four Opens](https://www.openstack.org/four-opens/) as
-  fundamental governing priniples published by the Open Infrastructure
+  fundamental governing principles published by the Open Infrastructure
   Foundation.
 
 * We participate in our umbrella organization's [bug bounty
   program](https://www.telekom.com/en/corporate-responsibility/data-protection-data-security/security/details/closing-security-gaps-360054). We
-  enourage submission as long as some conditions are met.
+  encourage submission as long as some conditions are met.
 
 
 ## Credentials and key material in these repos
 
 You may find apparently sensitive data in our repos including, but not limited to
 
-* PEM encoded X509v3 certifiates,
+* PEM encoded X509v3 certificates,
 * PEM encoded private keys,
 * SSH public keys,
 * passwords for various cloud services, and
@@ -48,7 +48,7 @@ least one of these categories:
 
 * **Examples in documentation:** Some user manuals have sections that
   explain the configuration of security credentials. For a better
-  understanding, sometimes dummy redentials are inluded that have a
+  understanding, sometimes dummy credentials are included that have a
   valid format. Rest assured that these credentials don't grant access
   to any real-world setups operated by us.
 
@@ -68,5 +68,5 @@ We are happy to evaluate any other findings.
 
 For your convenience we maintain a list of URLs that we already have
 checked and have identified as false positives. In the
-[tools](./tools) section of this repo there are a few sripts that we
+[tools](./tools) section of this repo there are a few scripts that we
 use to scan and analyze our projects.
